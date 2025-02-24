@@ -21,4 +21,3 @@ startApolloExpressServer()
     .then(() => console.log('Apollo Express Server Initialization Successful'))
     .catch((error) => console.log(`ApolloExpress Server Initialization Failed. Error: ${error.message}`, { error }));
 
-
